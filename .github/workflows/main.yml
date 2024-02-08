@@ -68,7 +68,7 @@ jobs:
       #    uses a compiled language
 
       - name: Generate settings.xml
-        uses: DamianReeves/write-file-action@v1.0
+        uses: DamianReeves/write-file-action@v1.3
         with:
           path: .m2/settings.xml
           contents: |
